@@ -6,6 +6,9 @@ tensorflow-gpu	1.12.0
 NiftyNet	0.4.0
 ```
 [download the data set](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mmwhs17/data1.html) to ``` ./data ```
+
+![](https://github.com/liut969/Whole-Heart-Segmentation/blob/master/data/temp/result.gif?raw=true)
+
 ## Step one
 1. Get train image：```python step_one/get_image.py```  
 2. Get label image：```python step_one/get_label.py```  
