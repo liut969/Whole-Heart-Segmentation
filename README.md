@@ -1,4 +1,16 @@
-# Automatic Whole Heart Segmentation Based on Two-stage U-Net Framework and Sliding Threshold Window
+# Automatic Whole Heart Segmentation Using a Two-stage U-Net Framework and an Adaptive Threshold Window
+
+If you find this code is useful for your research, please consider citing:
+```
+@article{liu2019automatic,
+  title={Automatic Whole Heart Segmentation Using a Two-stage U-Net Framework and an Adaptive Threshold Window},
+  author={Liu, Tao and Tian, Yun and Zhao, Shifeng and Huang, Xiaoying and Wang, Qingjun},
+  journal={IEEE Access},
+  year={2019},
+  publisher={IEEE}
+}
+```
+
 ## Installation
 ```
 python 3.5
