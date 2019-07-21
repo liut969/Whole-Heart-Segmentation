@@ -2,13 +2,18 @@
 
 If you find this code is useful for your research, please consider citing:
 ```
-@article{liu2019automatic,
-  title={Automatic Whole Heart Segmentation Using a Two-stage U-Net Framework and an Adaptive Threshold Window},
-  author={Liu, Tao and Tian, Yun and Zhao, Shifeng and Huang, Xiaoying and Wang, Qingjun},
-  journal={IEEE Access},
-  year={2019},
-  publisher={IEEE}
-}
+@ARTICLE{8737680, 
+author={T. {Liu} and Y. {Tian} and S. {Zhao} and X. {Huang} and Q. {Wang}}, 
+journal={IEEE Access}, 
+title={Automatic Whole Heart Segmentation Using a Two-Stage U-Net Framework and an Adaptive Threshold Window}, 
+year={2019}, 
+volume={7}, 
+number={}, 
+pages={83628-83636}, 
+keywords={Heart;Image segmentation;Training;Microsoft Windows;Task analysis;Medical diagnostic imaging;Whole heart segmentation;U-Net;adaptive threshold window;segmentation}, 
+doi={10.1109/ACCESS.2019.2923318}, 
+ISSN={2169-3536}, 
+month={},}
 ```
 
 ## Installation
