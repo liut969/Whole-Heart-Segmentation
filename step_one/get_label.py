@@ -4,6 +4,7 @@ from skimage.io import imsave
 import numpy as np
 from skimage.segmentation import find_boundaries
 import constant_model
+from skimage import img_as_uint
 
 def get_label(from_path, save_path, save_id):
     label = sitk.ReadImage(from_path)
@@ -13,7 +14,7 @@ def get_label(from_path, save_path, save_id):
         seg_bounderies = find_boundaries(current_image, mode='inner')
         bin_img = current_image > 0
         binary_with_borders = np.bitwise_xor(bin_img, seg_bounderies)
-        imsave(save_name, binary_with_borders)
+        imsave(save_name, img_as_uint(binary_with_borders))
         save_id += 1
         print(save_id)
 
